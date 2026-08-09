@@ -13,7 +13,7 @@ General instruction following
 Everything is included in the multi_domain_lora_router_colab.ipynb notebook and is designed to run in Google Colab.
 
 
-Instead of keeping three complete models in memory, the system loads GPT-2once. Each domain is represented by a much smaller LoRA adapter. A TF-IDF and Logistic Regression classifier reads the prompt, predicts its domain, and activates the matching adapter before generation.
+Instead of keeping three complete models in memory, the system loads GPT-2 once. Each domain is represented by a much smaller LoRA adapter. A TF-IDF and Logistic Regression classifier reads the prompt, predicts its domain, and activates the matching adapter before generation.
 
 
 Datasets
